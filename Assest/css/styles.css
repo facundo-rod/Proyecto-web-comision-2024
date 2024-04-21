@@ -1,0 +1,29 @@
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #b0ccff; /* Agrega un color de fondo al encabezado */
+}
+
+#Logo {
+    align-self: start;
+    width: 50%;
+    max-width: 8em;
+    margin-left: 35px;
+}
+
+/* Estilos para el menú de navegación */
+.navbar {
+    display: flex;
+    gap: 20px;
+    margin-left: auto; /* Mueve el menú hacia la derecha */
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #b0ccff; /* Agrega un color de fondo al encabezado */
+
+}
