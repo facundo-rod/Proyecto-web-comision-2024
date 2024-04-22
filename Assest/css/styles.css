@@ -1,12 +1,13 @@
-/* Estilos para el encabezado */
+/* Estilo del encabezado */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #b0ccff; /* Agrega un color de fondo al encabezado */
+    background-color: #b0ccff; /
 }
 
+/* Estilo para el logo del header */
 #Logo {
     align-self: start;
     width: 50%;
@@ -14,16 +15,50 @@ header {
     margin-left: 35px;
 }
 
-/* Estilos para el menú de navegación */
+/* Estilo para el menu de navegacion */
 .navbar {
     display: flex;
     gap: 20px;
-    margin-left: auto; /* Mueve el menú hacia la derecha */
+    margin-left: auto; /* nav a la derecha */
 }
 
-footer{
+/* Estilo del footer */
+#derechos-reservados{
     display: flex;
     justify-content: center;
-    background-color: #b0ccff; /* Agrega un color de fondo al encabezado */
+    background-color: #b0ccff; 
+}
 
+/* #iframe{
+    display: flex;
+    margin-left: auto;
+    background-color: #b0ccff; 
+}
+/*
+
+/* Estilo de la seccion 1 */
+.section_1 {
+    display: flex;
+    gap: 20px; 
+    margin-inline: auto; /* Elementos de la seccion alineados  */
+}
+
+/* Estilo de la seccion 2 */
+/*
+.section_2 {
+
+} /*
+
+/* Estilo de la seccion 3 */
+.section_3 {
+    display: flex;
+    gap: 20px; 
+    margin-inline: auto; /* Elementos de la seccion alineados  */  
+}
+
+/* Estilo de la seccion 4 */
+.section_4 {
+    display: flex;
+    gap: 20px; 
+    margin-inline: auto; /* Elementos de la seccion alineados  */
 }
